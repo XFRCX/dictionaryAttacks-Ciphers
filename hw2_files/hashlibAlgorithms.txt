@@ -1,0 +1,14 @@
+blake2b - 128
+blake2s - 64
+md5 - 32
+sha1 - 40
+sha224 - 56
+sha256 - 64
+sha384 - 96
+sha3_224 - 56
+sha3_256 - 64
+sha3_384 - 96
+sha3_512 - 128
+sha512 - 128
+shake_128
+shake_256
