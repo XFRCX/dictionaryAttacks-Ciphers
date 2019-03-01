@@ -3,11 +3,14 @@ import itertools
 import string
 import collections
 
-#notes--
+'''---------------------Programmer notes-------------------------------'''
 #encode() converts the string into bytes to be accepted by hash function
 #digest() returns the encoded data in byte format
 #hexdigest() returns the encoded dat n hexadecimal format
+'''--------------------------------------------------------------------'''
 
+# fuunction used to transform a word with a caesar cipher
+# it takes a string and the offset key
 def cipherUp(orginalString, key):
     lowerCaseAlphabetList = collections.deque(string.ascii_lowercase)
     lowerCaseAlphabetList.rotate(key)
@@ -144,7 +147,7 @@ def sha512_hack_tool(passHash, CIPHER):
                   print("comparing: {} to {}".format(cHWord.hexdigest(), passHash))
                   if(cHWord.hexdigest() == passHash):
                     print("***Password was cracked using sha512 hash algorithm with cipher***")
-                    print("password: {}".format(cipherWord))
+                    print("password: {}".format(word))
                     exit()
               #exit()
           else:
