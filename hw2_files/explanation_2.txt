@@ -1,0 +1,33 @@
+  Username7 was a definite challenge for me because there was a lot to take into
+account to make sure that it all worked out in the final plain text. I first
+started with reading in the cipher text and finding what characters where found
+and their frequency. I then ordered the frequencies from the highest to lowest
+and excluded any periods, commas, and spaces. I then looked up letter frequencies
+to get a list of frequencies in the English language. I then wrote side by side
+the highest frequencies of the cipher text with the highest frequencies found the web.
+I then looked at the cipher text to look for single words, I found "c", "s", and
+"d". I now had to analyze the probability of which could be "i" or "a", I was
+tripped about what could be the third so I just left it out of my head. Luckly I
+got lucky and chose the correct mapping in the first try for the single letter words.
+I now when with the list and started changing letter mappings manually until I got a
+clue what a word may be.
+
+  This process went on for a while, to be precise a matter of two days. Another
+thing that I would do was once I had solve a word in a sentence I would try to guess
+what the other words in the sentence could be. The major hurdle that I faced was
+a big mistake in my part, I was using the replace function to manually replace a
+specific character with a new character and it worked out fine for most of the alphabet.
+The problem was I forgot that it would start to replace other mappings that I had already set
+so I was stuck in a never ending loop of utter failure until I realized that I should
+not be using that function. I replaced this function with a better approach that I learned
+about in password_cracker.py. Another thing that I also ran into was that when I was using
+the replace function I used a color scheme to change the color of the changed characters in
+the terminal output. While this was fine for most of the letters, whenever I did the the letter
+"x" I would get this massive error of nonsense. It took me a while to realize that for some
+reason the letter x whas messing something up with the color scheme command. Once I removed
+the color scheme I was able to get rid of the error.All the websites that I used for help
+will be listed below.
+
+
+https://en.wikipedia.org/wiki/Letter_frequency
+https://www3.nd.edu/~busiforc/handouts/cryptography/cryptography%20hints.html

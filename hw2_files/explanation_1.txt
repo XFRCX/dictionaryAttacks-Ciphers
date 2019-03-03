@@ -1,0 +1,20 @@
+  So the first thing that I did was to find the guaranteed hash algorithms for
+hash lib. After I found them I then made a list of all the hash algorithms with
+their respective string length. Now I used to shadow file to find the string
+length of all the hash strings. I then followed by connecting the hash string
+with their respective hash algorithm to minimize the work load.  I then began
+to look up how to read in a string from a text file and build on the program
+one piece at a time until I had the major structure of the program. All of the
+hash string were pretty straight forward to crack since I have used hash algorithms
+in the past with a block chain project.
+  Now the hurdles were definitely finding out what technique was used for user2
+and user4. I started with tackling leet speak first, I just changed the letter
+characters that I thought could be represented with other non alphabetical
+characters. I used the replace function and ran it for both user2 and user4 and
+BAM! password was cracked. I then followed to salting, This was hard because I
+was not sure on how to go through all the combinations, but I researched for
+some time and found a efficient way to carry out this task, password was cracked.
+The final hurdle was the Caesar cipher, I did a couple hours of research on how
+it worked and started planning on paper what I needed to implement this. I used
+some of the techniques that I learned from cracking user2 and user4 and combined
+it with some of the research I had done and I was able to crack the password.
